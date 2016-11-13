@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.emot.detectemotions"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "0.1"
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.github.felHR85:UsbSerial:4.5.1'
+    compile 'com.affectiva.android:affdexsdk:3.0.1'
+}
